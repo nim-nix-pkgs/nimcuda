@@ -11,6 +11,7 @@
   inputs.src-nimcuda-master.ref   = "refs/heads/master";
   inputs.src-nimcuda-master.owner = "andreaferretti";
   inputs.src-nimcuda-master.repo  = "nimcuda";
+  inputs.src-nimcuda-master.dir   = "";
   inputs.src-nimcuda-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

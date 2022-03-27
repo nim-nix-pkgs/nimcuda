@@ -11,6 +11,7 @@
   inputs.src-nimcuda-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-nimcuda-0_1_1.owner = "andreaferretti";
   inputs.src-nimcuda-0_1_1.repo  = "nimcuda";
+  inputs.src-nimcuda-0_1_1.dir   = "";
   inputs.src-nimcuda-0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
