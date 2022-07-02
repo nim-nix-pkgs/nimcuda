@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-nimcuda-master": "src-nimcuda-master"
+        "src-nimcuda-0_1_8": "src-nimcuda-0_1_8"
       }
     },
-    "src-nimcuda-master": {
+    "src-nimcuda-0_1_8": {
       "flake": false,
       "locked": {
         "lastModified": 1656485498,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "andreaferretti",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/0.1.8",
         "repo": "nimcuda",
         "type": "github"
       }
